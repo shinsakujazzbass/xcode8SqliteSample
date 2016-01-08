@@ -14,6 +14,13 @@
 		047E5D9D1C3F7331005C0208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047E5D9B1C3F7331005C0208 /* LaunchScreen.storyboard */; };
 		047E5DA81C3F7331005C0208 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DA71C3F7331005C0208 /* testTests.swift */; };
 		047E5DB31C3F7331005C0208 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DB21C3F7331005C0208 /* testUITests.swift */; };
+		047E5DCD1C3F7385005C0208 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DC21C3F7385005C0208 /* FMDatabase.m */; };
+		047E5DCE1C3F7385005C0208 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DC41C3F7385005C0208 /* FMDatabaseAdditions.m */; };
+		047E5DCF1C3F7385005C0208 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DC61C3F7385005C0208 /* FMDatabasePool.m */; };
+		047E5DD01C3F7385005C0208 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DC81C3F7385005C0208 /* FMDatabaseQueue.m */; };
+		047E5DD11C3F7385005C0208 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 047E5DCB1C3F7385005C0208 /* FMResultSet.m */; };
+		047E5DD21C3F7385005C0208 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 047E5DCC1C3F7385005C0208 /* Info.plist */; };
+		047E5DD41C3F73CF005C0208 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 047E5DD31C3F73CF005C0208 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,20 @@
 		047E5DAE1C3F7331005C0208 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047E5DB21C3F7331005C0208 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		047E5DB41C3F7331005C0208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047E5DC11C3F7385005C0208 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		047E5DC21C3F7385005C0208 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		047E5DC31C3F7385005C0208 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		047E5DC41C3F7385005C0208 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		047E5DC51C3F7385005C0208 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		047E5DC61C3F7385005C0208 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		047E5DC71C3F7385005C0208 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		047E5DC81C3F7385005C0208 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		047E5DC91C3F7385005C0208 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		047E5DCA1C3F7385005C0208 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		047E5DCB1C3F7385005C0208 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		047E5DCC1C3F7385005C0208 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047E5DD31C3F73CF005C0208 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		047E5DD51C3F740D005C0208 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047E5DD41C3F73CF005C0208 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +99,7 @@
 		047E5D861C3F7331005C0208 = {
 			isa = PBXGroup;
 			children = (
+				047E5DD31C3F73CF005C0208 /* libsqlite3.dylib */,
 				047E5D911C3F7331005C0208 /* test */,
 				047E5DA61C3F7331005C0208 /* testTests */,
 				047E5DB11C3F7331005C0208 /* testUITests */,
@@ -97,12 +120,14 @@
 		047E5D911C3F7331005C0208 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				047E5DC01C3F7385005C0208 /* fmdb */,
 				047E5D921C3F7331005C0208 /* AppDelegate.swift */,
 				047E5D941C3F7331005C0208 /* ViewController.swift */,
 				047E5D961C3F7331005C0208 /* Main.storyboard */,
 				047E5D991C3F7331005C0208 /* Assets.xcassets */,
 				047E5D9B1C3F7331005C0208 /* LaunchScreen.storyboard */,
 				047E5D9E1C3F7331005C0208 /* Info.plist */,
+				047E5DD51C3F740D005C0208 /* test-Bridging-Header.h */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -123,6 +148,26 @@
 				047E5DB41C3F7331005C0208 /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		047E5DC01C3F7385005C0208 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				047E5DC11C3F7385005C0208 /* FMDatabase.h */,
+				047E5DC21C3F7385005C0208 /* FMDatabase.m */,
+				047E5DC31C3F7385005C0208 /* FMDatabaseAdditions.h */,
+				047E5DC41C3F7385005C0208 /* FMDatabaseAdditions.m */,
+				047E5DC51C3F7385005C0208 /* FMDatabasePool.h */,
+				047E5DC61C3F7385005C0208 /* FMDatabasePool.m */,
+				047E5DC71C3F7385005C0208 /* FMDatabaseQueue.h */,
+				047E5DC81C3F7385005C0208 /* FMDatabaseQueue.m */,
+				047E5DC91C3F7385005C0208 /* FMDB.h */,
+				047E5DCA1C3F7385005C0208 /* FMResultSet.h */,
+				047E5DCB1C3F7385005C0208 /* FMResultSet.m */,
+				047E5DCC1C3F7385005C0208 /* Info.plist */,
+			);
+			name = fmdb;
+			path = "../../../../Downloads/fmdb-master/src/fmdb";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047E5DD21C3F7385005C0208 /* Info.plist in Resources */,
 				047E5D9D1C3F7331005C0208 /* LaunchScreen.storyboard in Resources */,
 				047E5D9A1C3F7331005C0208 /* Assets.xcassets in Resources */,
 				047E5D981C3F7331005C0208 /* Main.storyboard in Resources */,
@@ -259,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047E5DCD1C3F7385005C0208 /* FMDatabase.m in Sources */,
 				047E5D951C3F7331005C0208 /* ViewController.swift in Sources */,
+				047E5DD11C3F7385005C0208 /* FMResultSet.m in Sources */,
+				047E5DCF1C3F7385005C0208 /* FMDatabasePool.m in Sources */,
 				047E5D931C3F7331005C0208 /* AppDelegate.swift in Sources */,
+				047E5DCE1C3F7385005C0208 /* FMDatabaseAdditions.m in Sources */,
+				047E5DD01C3F7385005C0208 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sns.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/test-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -415,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sns.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/test-Bridging-Header.h";
 			};
 			name = Release;
 		};
